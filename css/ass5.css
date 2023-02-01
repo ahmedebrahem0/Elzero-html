@@ -1,0 +1,54 @@
+
+
+p{
+    border: inherit;
+    padding: inherit;   
+}
+
+.won,.tow {
+    margin: 30px auto;
+    padding: 20px;
+    width: 800px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #EEE;
+}
+
+.tow {
+    border: 5px solid #009688;
+}
+.won {
+    border: 5px solid #fd5e36;
+}
+
+
+.three {
+    text-align: center;
+    font-weight: 300;
+    font-family :'Open Sans', sans-serif;
+    font-size: 80px;
+}
+.for {
+    text-align: center;
+    font-weight: 700;
+    font-family :'Cairo', sans-serif;
+    font-size: 80px;
+}
+.faiv {
+    text-align: center;
+    font-weight: 400;
+    font-family :'Jomhuria ';
+    font-size: 80px;
+    
+}
+
+.all {
+    text-shadow:  5px 0 red;
+    
+}
+.A,.B,.C {
+    text-shadow:  5px 0 red;
+    font-style: inherit;
+    font-size: 80px;
+    text-align: center;
+}

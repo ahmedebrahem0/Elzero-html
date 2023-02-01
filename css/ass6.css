@@ -1,0 +1,62 @@
+.parent {
+    width: 1000px;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+}
+.parent .full-width,
+.parent .A3 div,
+.parent .A2 div,
+.parent .A4 div{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+        background-color: rgb(209, 209, 209);
+        text-align: center;
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: sans-serif;
+}  
+.parent .full-width{
+    width: calc((100% - 30px)/1);
+    margin-top: 15px;
+}
+
+.parent .A3 div {
+    width: calc((100% - 60px)/3);
+    margin-left: 15px;
+}
+
+.parent .A2 div {
+    width: calc((100% - 45px)/2);
+    margin-left: 15px;
+}
+
+.parent .A4 div{
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px;
+}
+.clear {
+    clear: both;
+}
+
+.con .normal,
+.con .one,
+.con .two{
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(179, 179, 179); 
+    color: black;
+}
+
+.con .one{
+    background-color:rgb(179, 179, 179 ,0.1)
+}
+.con .two{
+    background-color: rgb(179, 179, 179); 
+    opacity: 0.1;
+}

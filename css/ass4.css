@@ -1,0 +1,55 @@
+
+div .won{
+    background-color: rgb(250, 244, 244);
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 30px auto;
+    padding:20px 30px ;
+    width: fit-content;
+    text-shadow:rgb(246, 67, 102) 1px 1px,
+                rgb(67, 130, 246) 2px 2px,
+                rgb(177, 83, 253) 3px 3px ;
+}
+
+.all2{
+    font-size: 40px;
+    text-align: center;
+}
+.one{
+    text-transform: capitalize;
+}
+
+.two{
+    text-transform: uppercase;
+}
+
+.three{
+    text-transform: lowercase;
+}
+
+
+.all3 div{
+    background-color: #EEE;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.ass3{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+a{
+    width: fit-content;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    background-color: teal;
+    color: white;
+    padding: 20px 20px;
+    margin: 0 50%;
+    border-bottom: 20px solid rgb(1, 80, 83);
+}
